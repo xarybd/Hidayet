@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacı Hidayet Tur - İletişim</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            position: relative;
+            width: 320px;
+            height: 640px;
+            background-image: url('tasarim.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .link {
+            position: absolute;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .link:hover {
+            color: #007BFF;
+        }
+
+        /* Her bağlantının pozisyonlarını ayarlıyoruz */
+        .phone {
+            top: 55%;
+            left: 20%;
+        }
+
+        .web {
+            top: 63%;
+            left: 20%;
+        }
+
+        .instagram {
+            top: 71%;
+            left: 20%;
+        }
+
+        .address {
+            top: 79%;
+            left: 20%;
+        }
+
+        /* Iconları hizalamak için ek stil */
+        .link img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="tel:+905320622992" class="link phone">
+            <img src="phone-icon.png" alt="Phone Icon"> Bize Ulaşın
+        </a>
+        <a href="https://hacihidayettur.com" target="_blank" class="link web">
+            <img src="web-icon.png" alt="Web Icon"> Web Sitemiz
+        </a>
+        <a href="https://www.instagram.com/hacihidayettur" target="_blank" class="link instagram">
+            <img src="instagram-icon.png" alt="Instagram Icon"> Bizi Takip Edin
+        </a>
+        <a href="https://maps.app.goo.gl/hAXDsCcBySmdPABw7" target="_blank" class="link address">
+            <img src="location-icon.png" alt="Location Icon"> Adresimiz
+        </a>
+    </div>
+</body>
+</html>
